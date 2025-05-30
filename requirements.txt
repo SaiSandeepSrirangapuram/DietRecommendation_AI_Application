@@ -1,0 +1,16 @@
+# Core Dependencies
+python==3.9  # Ensure compatibility with libraries
+
+# Web UI & Framework
+streamlit==1.22.0  # Interactive UI for recommendations
+
+# Data Handling & Machine Learning
+pandas==1.5.3        # Data manipulation
+scikit-learn==1.2.2  # LabelEncoder, StandardScaler, NearestNeighbors for diet recommendations
+
+# Visualization (from Notebook.ipynb)
+matplotlib==3.7.1    # Data visualization
+seaborn==0.12.2      # Statistical plots
+
+# Regular Expressions (if used for text processing)
+re==2.2.1  # Regex-based filtering (not needed for pip but kept for reference)
