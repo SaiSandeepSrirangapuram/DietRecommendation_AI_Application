@@ -5,7 +5,7 @@
 
 ---
 
-## ✨ Features
+## Features
 - **AI-driven meal suggestions** based on dietary preferences (vegan, keto, diabetic, etc.)
 - **NLP-based food analysis** for ingredient insights and allergen detection
 - **Calorie & nutrient tracking** for balanced meal planning
@@ -65,8 +65,6 @@ DietRecommendation_AI_Application/
 │── requirements.txt     # Python package dependencies
 │── models/              # AI models for diet recommendation
 │── data/                # Datasets for food and nutrition information
-│── static/              # Static assets (CSS, JS, images)
-│── templates/           # HTML templates for frontend
 │── README.md            # Project documentation
 ```
 
@@ -91,13 +89,6 @@ To contribute:
    git push origin feature-branch
    ```
 5. **Submit a Pull Request** for review
-
----
-
-## License
-
-This project is licensed under the **MIT License**.  
-See the [LICENSE](LICENSE) file for details.
 
 ---
 
