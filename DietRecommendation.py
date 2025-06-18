@@ -85,10 +85,10 @@ else:
     st.table(recommendations.reset_index(drop=True))
 
     # --- User Feedback ---
-    feedback = st.radio("Was this helpful?", ["👍 Yes", "👎 No"])
-    if feedback == "👍 Yes":
+    feedback = st.radio("Was this helpful?", ["Yes", "No"])
+    if feedback == "Yes":
         st.success("Thanks! We'll remember your taste.")
         # Here you can add code to log this feedback for future personalization
-    elif feedback == "👎 No":
+    elif feedback == "No":
         st.info("Thanks for your feedback! We'll try to improve.")
 
