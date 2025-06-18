@@ -19,7 +19,7 @@ def load_data():
 df, label_encoder, scaler, nn = load_data()
 
 # --- UI Improvements ---
-st.title("🍽️ AI Diet Recommendation Tool")
+st.title(" AI Diet Recommendation Tool")
 st.markdown("Select your nutrient preferences and dietary goal to get healthy food suggestions!")
 # st.image("https://cdn.pixabay.com/photo/2016/11/23/15/38/diet-1853291_960_720.jpg", use_column_width=True)
 
